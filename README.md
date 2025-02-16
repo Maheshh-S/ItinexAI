@@ -1,44 +1,43 @@
-# 🌍 ItinexAI - AI-Powered Smart Travel Planner ✈️  
+# 🌍 ItinexAI - Your AI-Powered Smart Travel Planner ✈️  
 
 ## 🎒 About the Project  
-Tired of endless travel research? **ItinexAI** is your personal AI-powered travel assistant that **builds customized itineraries** in seconds!  
-It understands your **preferences, budget, and interests** to craft the perfect trip for you.  
+Tired of spending hours planning trips? **ItinexAI** is your **AI-powered travel assistant** that generates **personalized itineraries** in seconds! Just enter your details, and let AI craft the perfect travel experience. 🚀  
 
-Say goodbye to messy planning & let AI handle it! 🚀  
+Say goodbye to travel stress and explore the world effortlessly! 🌍✨  
 
----
+---  
 
 ## 🔥 Features  
-✨ **AI-Generated Itineraries** – Personalized trip plans in seconds 🤖  
-✨ **Real-time Flight Search** – Find flights effortlessly! ✈️  
-✨ **Smooth UI/UX** – Beautifully designed with animations 🎭  
-✨ **Budget-based Suggestions** – Affordable or luxury? It’s up to you 💰  
-✨ **Mobile & Desktop Optimized** – Plan your trip anywhere, anytime 📱💻  
-✨ **Instant Markdown Formatting** – View neatly formatted plans 📜  
+✅ **AI-Generated Itineraries** – Get personalized trip plans instantly 🤖  
+✅ **Real-time Flight Search** – Find the best flights with a click! ✈️  
+✅ **Smooth UI/UX** – Beautifully designed with animations 🎭  
+✅ **Budget-based Recommendations** – Customize plans based on affordability 💰  
+✅ **Mobile & Desktop Optimized** – Access your itinerary anywhere 📱💻  
+✅ **Instant Markdown Formatting** – Neatly formatted travel plans 📜  
 
----
+---  
 
 ## 🛠️ Tech Stack  
 
 ### **Frontend:**  
-🔹 **React.js** – Dynamic UI ⚛️  
-🔹 **Tailwind CSS** – Sleek styling 🎨  
-🔹 **Framer Motion** – Smooth animations ✨  
-🔹 **React Markdown** – Clean, readable itineraries 📜  
+- ⚛️ **React.js** – Dynamic UI  
+- 🎨 **Tailwind CSS** – Modern styling  
+- ✨ **Framer Motion** – Smooth animations  
+- 📜 **React Markdown** – Clean, readable itineraries  
 
 ### **APIs Used:**  
-🔹 **Gemini API** – AI-generated itineraries 🤖  
-🔹 **SerpAPI** – Fetches live flight data ✈️  
+- 🤖 **Gemini API** – AI-generated itineraries  
+- ✈️ **SerpAPI** – Fetches real-time flight data  
 
----
+---  
 
 ## 🏗️ How It Works  
 
 ### 📌 **User Journey Flow**  
 ```mermaid  
-graph LR;  
+graph TD;  
     A[User Enters Travel Details] --> B[AI Generates Itinerary]  
-    B --> C[Flight Search (Optional)]  
+    B -->|Optional| C[Flight Search]  
     C --> D[Fetch Real-Time Flight Prices]  
     B --> E[Format Itinerary in Markdown]  
     E --> F[Display in UI]  
@@ -51,23 +50,23 @@ graph LR;
 sequenceDiagram  
     participant User  
     participant ItinexAI  
-    participant Gemini API  
+    participant GeminiAPI  
     participant UI  
     User->>ItinexAI: Enter trip details  
-    ItinexAI->>Gemini API: Send user preferences  
-    Gemini API-->>ItinexAI: Generate personalized itinerary  
+    ItinexAI->>GeminiAPI: Send user preferences  
+    GeminiAPI-->>ItinexAI: Generate personalized itinerary  
     ItinexAI->>UI: Format and display results  
     UI-->>User: Show AI-generated travel plan  
 ```  
 
----
+---  
 
 ## ⚡ Installation & Setup  
 
 ### 🚀 Quick Start  
 1️⃣ **Clone the repository**  
 ```bash  
-git clone   
+git clone https://github.com/Maheshh-S/ItinexAI.git 
 cd itinexai  
 ```  
 2️⃣ **Install dependencies**  
@@ -80,10 +79,12 @@ npm run dev
 ```  
 🎉 Your AI Travel Planner is live at `http://localhost:3000`!  
 
----
+---  
 
 ## 📜 License  
 📄 Licensed under **MIT License** – Free to use & modify!  
+
+---  
 
 ## 💡 Let’s Connect!  
 Want to improve or contribute? Have feedback? Let’s chat!  
